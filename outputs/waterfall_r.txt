@@ -1,0 +1,39 @@
+  adnetwork_name ad_unit_name  order  ... impressions  fill_rate  revenue
+0     AdNetwork2       Oct_$4      1  ...        1160        0.0     4.64
+
+[1 rows x 9 columns]
+  adnetwork_name ad_unit_name  order  ... impressions  fill_rate  revenue
+0     AdNetwork3       Oct_$7      1  ...         650        0.0     4.55
+1     AdNetwork2       Oct_$4      2  ...        1160        0.0     4.64
+
+[2 rows x 9 columns]
+  adnetwork_name ad_unit_name  order  ... impressions  fill_rate  revenue
+0     AdNetwork1      Oct_$10      1  ...         400        0.0     4.00
+1     AdNetwork3       Oct_$7      2  ...         650        0.0     4.55
+2     AdNetwork2       Oct_$4      3  ...        1160        0.0     4.64
+
+[3 rows x 9 columns]
+  adnetwork_name ad_unit_name  order  ... impressions  fill_rate  revenue
+0     AdNetwork1      Oct_$10      1  ...         400        0.0     4.00
+1     AdNetwork2       Oct_$9      2  ...         440        0.0     3.96
+2     AdNetwork3       Oct_$7      3  ...         650        0.0     4.55
+3     AdNetwork2       Oct_$3      4  ...        1070        0.0     3.21
+
+[4 rows x 9 columns]
+  adnetwork_name ad_unit_name  order  ... impressions  fill_rate  revenue
+0     AdNetwork1      Oct_$10      1  ...         400        0.0     4.00
+1     AdNetwork2       Oct_$9      2  ...         440        0.0     3.96
+2     AdNetwork3       Oct_$7      3  ...         650        0.0     4.55
+3     AdNetwork1       Oct_$5      4  ...         290        0.0     1.45
+4     AdNetwork2       Oct_$3      5  ...        1070        0.0     3.21
+
+[5 rows x 9 columns]
+  adnetwork_name ad_unit_name  order  ... impressions  fill_rate  revenue
+0     AdNetwork1      Oct_$10      1  ...         400        0.0    4.000
+1     AdNetwork2       Oct_$9      2  ...         440        0.0    3.960
+2     AdNetwork3       Oct_$7      3  ...         650        0.0    4.550
+3     AdNetwork1       Oct_$5      4  ...         290        0.0    1.450
+4     AdNetwork2       Oct_$3      5  ...        1070        0.0    3.210
+5     AdNetwork3       Oct_$1      6  ...         725        0.0    0.725
+
+[6 rows x 9 columns]

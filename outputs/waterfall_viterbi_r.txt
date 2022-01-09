@@ -1,0 +1,39 @@
+  Section Order              Ad unit  ... Revenue Network RFM Ad unit id
+0    High     1  AdNetwork2 Oct $4.0  ...    4.64           0       0_16
+
+[1 rows x 9 columns]
+  Section Order              Ad unit  ... Revenue Network RFM Ad unit id
+0    High     1  AdNetwork3 Oct $7.0  ...    4.55           0       0_31
+1    High     2  AdNetwork2 Oct $4.0  ...    4.64           0       1_52
+
+[2 rows x 9 columns]
+  Section Order               Ad unit  ... Revenue Network RFM Ad unit id
+0    High     1  AdNetwork1 Oct $10.0  ...     4.0           0       0_10
+1    High     2   AdNetwork3 Oct $7.0  ...    4.55           0       1_67
+2    High     3   AdNetwork2 Oct $4.0  ...    4.64           0       2_88
+
+[3 rows x 9 columns]
+  Section Order               Ad unit  ... Revenue Network RFM Ad unit id
+0    High     1  AdNetwork1 Oct $10.0  ...     4.0           0       0_10
+1    High     2   AdNetwork2 Oct $9.0  ...    3.96           0       1_57
+2    High     3   AdNetwork3 Oct $7.0  ...    4.55           0      2_103
+3    High     4   AdNetwork2 Oct $3.0  ...    3.21           0      3_123
+
+[4 rows x 9 columns]
+  Section Order               Ad unit  ... Revenue Network RFM Ad unit id
+0    High     1  AdNetwork1 Oct $10.0  ...     4.0           0       0_10
+1    High     2   AdNetwork2 Oct $9.0  ...    3.96           0       1_57
+2    High     3   AdNetwork3 Oct $7.0  ...    4.55           0      2_103
+3    High     4   AdNetwork1 Oct $5.0  ...    1.45           0      3_113
+4    High     5   AdNetwork2 Oct $3.0  ...    3.21           0      4_159
+
+[5 rows x 9 columns]
+  Section Order               Ad unit  ... Revenue Network RFM Ad unit id
+0    High     1  AdNetwork1 Oct $10.0  ...     4.0           0       0_10
+1    High     2   AdNetwork2 Oct $9.0  ...    3.96           0       1_57
+2    High     3   AdNetwork3 Oct $7.0  ...    4.55           0      2_103
+3    High     4   AdNetwork1 Oct $5.0  ...    1.45           0      3_113
+4    High     5   AdNetwork2 Oct $3.0  ...    3.21           0      4_159
+5    High     6   AdNetwork3 Oct $1.0  ...   0.725           0      5_205
+
+[6 rows x 9 columns]

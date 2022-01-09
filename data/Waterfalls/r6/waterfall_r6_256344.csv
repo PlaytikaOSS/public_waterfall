@@ -1,0 +1,7 @@
+Section,Order,Ad unit,RPM,Impressions,Network fill rate,Revenue,Network RFM,Ad unit id
+High, 1,AdNetwork2 Oct $9,0,440, 0,3.96, 0, 6
+High, 1,AdNetwork1 Oct $9,0,440, 0,3.96, 0, 5
+High, 1,AdNetwork3 Oct $8,0,400, 0,3.2, 0, 4
+High, 1,AdNetwork2 Oct $4,0,720, 0,2.88, 0, 3
+High, 1,AdNetwork1 Oct $4,0,310, 0,1.24, 0, 2
+High, 1,AdNetwork3 Oct $2,0,375, 0,0.75, 0, 1
