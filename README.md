@@ -8,10 +8,10 @@ Required packages: os, math, logging, pickle, pprint, copy, numpy, pandas, scipy
 
 The repository is organized as follows:
 
-classes - all the necessary classes
-data - the synthetic datasets and their generator
-models - the Viterbi algorithm
-output - the relevant results
-Quick start: rum main.py
+classes - all the necessary classes\n
+data - the synthetic datasets and their generator\n
+models - the Viterbi algorithm\n
+output - the relevant results\n
+Quick start: rum main.py\n
 
 findAllWaterfalls.py generates all possible watterfall for MatrixM.csv with 1<=r<=9 (waterfall length)
