@@ -16,7 +16,11 @@ models - the Viterbi algorithm
 
 output - the relevant results
 
-Quick start: rum main.py
-
 
 findAllWaterfalls.py generates all possible watterfall for MatrixM.csv with 1<=r<=9 (waterfall length)
+
+
+<u>Quick start<\u>: rum main.py
+
+
+
