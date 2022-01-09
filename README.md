@@ -20,7 +20,7 @@ output - the relevant results
 findAllWaterfalls.py generates all possible watterfall for MatrixM.csv with 1<=r<=9 (waterfall length)
 
 
-<u>Quick start</u>: rum main.py
+\*Quick start\*: rum main.py
 
 
 
