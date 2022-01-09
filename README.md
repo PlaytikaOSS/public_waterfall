@@ -1,4 +1,4 @@
-# public_waterfall
+# Waterfall---Viterbi-optimization
  
 This code aims to optimize waterfall auction strategy.
 
