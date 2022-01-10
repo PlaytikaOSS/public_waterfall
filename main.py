@@ -36,11 +36,11 @@ if __name__ == '__main__':
 
         print(r + ' = ' + str(max_revenue))
         revenue_r.append(max_revenue)
-        pd.DataFrame(revenue_r).to_csv('outputs/revenue_r.csv')
+        pd.DataFrame(revenue_r).to_csv('outputs/revenue_r.csv', index=False)
 
         print('num_waterfalls = '  + str(len(os.listdir('data/Waterfalls/' + r + '/'))))
         num_waterfalls_r.append(len(os.listdir('data/Waterfalls/' + r + '/')))
-        pd.DataFrame(num_waterfalls_r).to_csv('outputs/num_waterfalls_r.csv')
+        pd.DataFrame(num_waterfalls_r).to_csv('outputs/num_waterfalls_r.csv', index=False)
 
         print(best_waterfall)
         waterfall_r.append(best_waterfall)
