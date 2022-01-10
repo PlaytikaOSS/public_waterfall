@@ -20,38 +20,24 @@ def get_next_price(layers, i, node, parent_node):
             i -= 1
     return price
 
-def find_max_capacity(ad_units, val):
+def find_max_capacity(ad_units, val, num_adnetworks = 10):
     """calculate the MAX_CAPACITY_VITERBI"""
 
-    MAX_CAPACITY_VITERBI = {"AdNetwork1": val,
-                     "AdNetwork2": val,
-                     "AdNetwork3": val,
-                     "AdNetwork4": val,
-                     "AdNetwork5": val,
-                     "AdNetwork6": val,
-                     "AdNetwork7": val,
-                     "AdNetwork8": val,
-                     "AdNetwork9": val,
-                     "AdNetwork10": val}
+    MAX_CAPACITY_VITERBI = {}
+    for i in range(0, num_adnetworks):
+        MAX_CAPACITY_VITERBI["AdNetwork%d" % (i + 1)] = val
     for i in ad_units:
         MAX_CAPACITY_VITERBI[i.adnetwork_name] += 1
 
     return MAX_CAPACITY_VITERBI
 
-def check_capacity(layers, i, node, parent_node, MAX_CAPACITY_VITERBI):
+def check_capacity(layers, i, node, parent_node, MAX_CAPACITY_VITERBI, num_adnetworks = 10):
     """check that adding node will not violate the MAX_CAPACITY_VITERBI property"""
 
     if i > 3:
-        CURR_CAPACITY = {"AdNetwork1": 0,
-                      "AdNetwork2": 0,
-                      "AdNetwork3": 0,
-                      "AdNetwork4": 0,
-                      "AdNetwork5": 0,
-                      "AdNetwork6": 0,
-                      "AdNetwork7": 0,
-                      "AdNetwork8": 0,
-                      "AdNetwork9": 0,
-                      "AdNetwork10": 0}
+        CURR_CAPACITY = {}
+        for i in range(0, num_adnetworks):
+            CURR_CAPACITY["AdNetwork%d" % (i + 1)] = 0
         CURR_CAPACITY[node.adnetwork_name] += 1
         while parent_node:
             CURR_CAPACITY[parent_node.adnetwork_name] += 1
